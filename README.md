@@ -2,6 +2,11 @@
 
 A demo of a realtime chat app with sentiment analysis using Nest.js and Pusher.
 
+Screenshot of the demo app
+
+![chat-app](https://user-images.githubusercontent.com/19610753/39476135-d79005d6-4d52-11e8-9e9c-ecb3430cfb5d.gif)
+
+
 ## Getting Started
 
 ### Clone the repository
