@@ -19,7 +19,6 @@
     "@nestjs/microservices": "^4.5.8",
     "@nestjs/testing": "^4.5.5",
     "@nestjs/websockets": "^4.5.8",
-    "axios": "^0.18.0",
     "ejs": "^2.5.9",
     "pusher": "^1.5.1",
     "reflect-metadata": "^0.1.12",
