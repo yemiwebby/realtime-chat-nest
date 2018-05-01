@@ -3,7 +3,7 @@ import { Get, Controller, Res } from '@nestjs/common';
 @Controller()
 export class AppController {
   @Get()
-  root(@Res() res, ) {
+  root(@Res() res) {
     res.render('index');
   }
 }

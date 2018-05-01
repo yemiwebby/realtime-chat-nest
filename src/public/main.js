@@ -18,8 +18,14 @@ new Vue({
         const channel = pusher.subscribe('chats');
         channel.bind('new-chat', data => {
             const expression = data.sentiment > 0 ? HAPPY_EMOJI : (data.sentiment === 0 ? NEUTRAL_EMOJI : SAD_EMOJI);
-            this.mood = String.fromCodePoint(...expression);
-            this.chats.push(data);
+
+            const response = {
+                message: data.message,
+                user: data.user,
+                mood: String.fromCodePoint(...expression)
+            }
+
+            this.chats.push(response);
         });
     },
     methods: {
