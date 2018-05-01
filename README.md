@@ -1,4 +1,4 @@
-## Build a realtime table with DataTables and Nest.js
+## Build a realtime chat app using Nest.js
 
 A demo of a realtime chat app with sentiment analysis using Nest.js and Pusher.
 
